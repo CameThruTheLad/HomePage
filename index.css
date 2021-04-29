@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins';
+    background-image: url("img/IMG_9485.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main {
+    margin-top: 350px;
+    margin-left: 30%;
+    margin-right: 30%;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 25px;
+    color: #020202;
+    text-decoration: none;
+}
+
+.titleCard {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #fff;
+}
+
+h1 {
+    color: white;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CTTL</title>
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loginBox">
+        <div class="title">
+            <h1>Welcome to CTTL</h1>
+        </div>
+        <div class="login">
+            <form id="login" method="post" target='_blank' action="login.html">
+                <div class="Username">
+                    <label>
+                        <b>User Name</b>
+                    </label>
+                    <input type="text" name="Uname" id="Uname" placeholder="Username">
+                </div>
+                <br>
+                <div class="Password">
+                    <label>
+                        <b>Password</b>
+                    </label>
+                    <input type="password" name="Password" id="Password" placeholder="Password">
+                    <br><br>
+                    <input type="submit" name="login" value="Login" onclick="loginFunction()">
+                </div>
+                <br>
+                <a href="https://www.youtube.com/watch?v=1T8eh-qWkgo&ab_channel=FunkySaturn">Forgot Password</a>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: #d3d3d3;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #020202;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d3d3d3;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #fff;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+h1 {
+    color: #020202;
+    font-family: 'Cinzel', serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.NY {
+    padding-top: 30px;
+}
+
+.NYVidTitle {
+    font-family: 'Poppins';
+}
+
+.CanopyVidTitle {
+    font-family: 'Poppins';
+}
+
+.tab {
+    margin: 0 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.tab button {
+    background-color: white;
+    border-radius: 0;
+    padding: 14px 16px;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#London {
+    background-color: #ccc;
+    margin: 0 20%;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+#Paris {
+    background-color: #ccc;
+    margin: 0 20%;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.Videos {
+    text-align: center;
+}
+
+.Photos {
+    text-align: center;
+}

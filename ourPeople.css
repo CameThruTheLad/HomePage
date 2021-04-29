@@ -1,0 +1,135 @@
+.ourPeople {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 1600px;
+    min-height: auto;
+    display: flex;
+    /*justify-content: center;*/
+    /*backdrop-filter: blur(3px);*/
+    background: linear-gradient(to right, black, white);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.ourPeople2 {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 1600px;
+    max-width: 1600px;
+    min-height: auto;
+    display: flex;
+    background: linear-gradient(to left, black, white);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+
+}
+
+.pfp {
+    padding: 30px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.description {
+    padding-top: 80px;
+    font-size: 30px;
+    color: black;
+    padding-left: 30px;
+}
+
+.content {
+    margin-top: 140px;
+    justify-content: space-evenly;
+}
+
+* {
+    box-sizing: border-box;;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: #d3d3d3;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #020202;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d3d3d3;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #fff;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+h1 {
+    color: #020202;
+    font-family: 'Cinzel', serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.name {
+    color: white;
+    font-family: 'Cinzel', serif;
+}

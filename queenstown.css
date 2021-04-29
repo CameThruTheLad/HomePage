@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+body {
+    background-image: url("img/IMG_8706.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.photo {
+    border-radius: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.mainBody {
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    backdrop-filter: blur(5px);
+}
+
+.date {
+    color: white;
+    font-family: 'Cinzel', serif;
+    padding-left: 15px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.eventList {
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+.time {
+    color: white;
+    padding-left: 20px;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+hr {
+    width: 500px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 15px;
+}

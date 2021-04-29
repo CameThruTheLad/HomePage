@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="media.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+	<script src="main.js"></script>
+	<script>
+		document.getElementById("defaultOpen").click();
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Media</h1>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="ourPeople.html">Our People</a></li>
+				<li><a href="media.html">Media</a></li>
+				<li><a href="bookUs.html">Book Us!</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br><br><br><br>
+	<!-- Tab links -->
+	<div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Videos</button>
+		<button class="tablinks" onclick="openCity(event, 'Paris')">Photos</button>
+	</div>
+	<!-- Tab content -->
+	<div id="London" class="tabcontent">
+		<div class="main">
+			<div class="Videos">
+				<div class="NY">
+					<iframe width="720" height="405"
+							src="https://www.youtube.com/embed/8lAhQRtpXUU"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
+					</iframe>
+				</div>
+				<h1 class="NYVidTitle">
+					CTTL 2020 Recap
+				</h1>
+				<p>
+					A video that needs no introduction, but I'll give you one anyways. The CTTL 2020 Recap.
+					After the dogshit year that was 2020, filled with separation from others, global pandemics,
+					and Earth threatening world disasters, there was one highlight that brings all of us together,
+					and that was the creation of Came Thru The Lad.
+					Came Thru The Lad (or CTTL) is comprised of 14 of the most unique kiwis that you will ever
+					find anywhere in the world and in this video they go over the ups and downs of their year.
+				</p>
+				<br>
+				<div class="Canopy">
+					<iframe width="720" height="405"
+							src="https://www.youtube.com/embed/lWXDKtS8mnI"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
+					</iframe>
+				</div>
+				<h1 class="CanopyVidTitle">
+					Canopy
+				</h1>
+				<p>
+					Canopy
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="Paris" class="tabcontent">
+		<div class="main">
+			<div class="Photos">
+				<img src="img/PostHim.jpg" width="500" height="500">
+				<img src="img/PostHim.jpg" width="500" height="500">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
